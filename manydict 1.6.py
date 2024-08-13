@@ -8,6 +8,10 @@ print(the_dict)
 del the_dict ['Oleg']
 print(the_dict)
 
+a = the_dict.pop('Sancho')
+print(a)
+print(the_dict)
+
 my_set = {1, 2, 3, 'Kirill', True, 2.1, 1, 2, 3, 'Kirill', True, 2.1}
 print(my_set)
 my_set.discard(2)
